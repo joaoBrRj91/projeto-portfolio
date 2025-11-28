@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>João Nascimento - Portfólio</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="menu">
+          <li><a href="Sobre.html">Sobre Mim</a></li>
+          <li><a href="formacao.html">Formação</a></li>
+          <li><a href="portfolio.html">Portfólio</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="pagina-header">
+        <div class="container contato-title">
+          <h1>Entre em Contato</h1>
+          <p>Envie uma mensagem e vamos conversar!</p>
+        </div>
+      </section>
+
+      <section class="contato">
+        <div class="container">
+          <div class="contato-grid">
+            <div class="contato-info">
+              <h3>Informações de Contato</h3>
+
+              <div class="informacao-item">
+                <span>📧</span>
+                <div>
+                  <h4>E-mail</h4>
+                  <p>joao.nascimento.portifolio@portifolio.com</p>
+                </div>
+              </div>
+
+              <div class="informacao-item">
+                <span>📍</span>
+                <div>
+                  <h4>Localização</h4>
+                  <p>Rio de Janeiro/RJ</p>
+                </div>
+              </div>
+
+              <div class="informacao-item">
+                <span>💼</span>
+                <div>
+                  <h4>GitHub</h4>
+                  <a href="https://github.com/joaoBrRj91" target="_blank"
+                    >github.com/joaoBrRj91</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="contato-form">
+              <h3>Envie uma Mensagem</h3>
+              <form id="contato" type="submit">
+                <div class="form-group">
+                  <label for="nome">Nome *</label>
+                  <input type="text" id="nome" name="nome" />
+                </div>
+
+                <div class="form-group">
+                  <label for="email">E-mail *</label>
+                  <input type="email" id="email" name="email" />
+                </div>
+
+                <div class="form-group">
+                  <label for="mensagem">Mensagem *</label>
+                  <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">
+                  Enviar Mensagem
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 João Márcio. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
