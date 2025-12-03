@@ -59,7 +59,7 @@ function validarEmail(email) {
   return regex.test(email);
 }
 
-// Função para limpar todas as mensagens de erro
+// Função para limpar todos campos após o envio
 function limparCampos() {
   document.getElementById("nome").value = "";
   document.getElementById("email").value = "";
